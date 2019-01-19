@@ -1,0 +1,345 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "2df7e22f8ae08b720402266e7fdc999b8dc45ac5",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "4949f6d2b5d2c67afa08dbf68ab5c8c3e49ec525",
+   "pkgpath": "Data/170c02e10c121294486c57133d65b5cc",
+   "size": 50074,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/170c02e10c121294486c57133d65b5cc"
+  },
+  {
+   "compression": 8,
+   "hash": "cd3d81e3d82ad27ad9fff5e01fdaa948d301f3e5",
+   "pkgpath": "Data/1e71f539decd80f4bb2541c46a153223",
+   "size": 50094,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/1e71f539decd80f4bb2541c46a153223"
+  },
+  {
+   "compression": 8,
+   "hash": "b43467e117fcc51ec4da91b1050e665c3b5542c8",
+   "pkgpath": "Data/2b303258409019f428ed17a87cda4ac9",
+   "size": 50342,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/2b303258409019f428ed17a87cda4ac9"
+  },
+  {
+   "compression": 8,
+   "hash": "dbff325bfad543a7260e42d0a4f2403f040152b1",
+   "pkgpath": "Data/479521f96370b384d810a07599e7b084",
+   "size": 50254,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/479521f96370b384d810a07599e7b084"
+  },
+  {
+   "compression": 8,
+   "hash": "2469df024d59ad317a7e76013bc82f408d5efefe",
+   "pkgpath": "Data/51731a8a220e240478717934f6e99543",
+   "size": 49482,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/51731a8a220e240478717934f6e99543"
+  },
+  {
+   "compression": 8,
+   "hash": "efa6b8f8eee29eb940c9f345d15299af3c4563c9",
+   "pkgpath": "Data/63e7f9bd47d71334aa0ffb67cc5bbfb1",
+   "size": 49654,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/63e7f9bd47d71334aa0ffb67cc5bbfb1"
+  },
+  {
+   "compression": 8,
+   "hash": "edef7ddee8b73c5861e9c05cb4969d178222ed12",
+   "pkgpath": "Data/7f93338dc6150ea45b387e442e8102da",
+   "size": 49366,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/7f93338dc6150ea45b387e442e8102da"
+  },
+  {
+   "compression": 8,
+   "hash": "65df50cd3f774b7dba4a1b741a61d0511e750f4b",
+   "pkgpath": "Data/8401b9c91b47d6449a4be596c8138a90",
+   "size": 50466,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/8401b9c91b47d6449a4be596c8138a90"
+  },
+  {
+   "compression": 8,
+   "hash": "4ad51582405d12865acc4cf8619118f8276f80c0",
+   "pkgpath": "Data/917dc8bcba1c29c4c8bd325b59088d1c",
+   "size": 49310,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/917dc8bcba1c29c4c8bd325b59088d1c"
+  },
+  {
+   "compression": 8,
+   "hash": "beeb2cbd84f6b07806f2a891d30d740eaac6bcbd",
+   "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
+   "size": 49642,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
+  },
+  {
+   "compression": 8,
+   "hash": "58329ab55eddf6285fbb5efa2411e30f12c29606",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2805412,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "141f1ffa38088512aced690f12244f95169377f9",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 34147208,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a23ede4e628290de91178a029d7b6bd5ef799ec8",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\libil2cpp.so-f596e25a908f1f52",
+   "xfrm_size": 34147966
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "88a8d92887e834d9a9b1c2a77bb23dead852e4b6",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\AudioPluginMSASpatializer.so-f66e5289c36acd68",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4bb4dbe8b9a76686c72cf0a0e9312b15d9b3d141",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\UnityMagicLeap.so-f66e5289c36acd68",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5ec3b5bacf01853176b21a6a027b0f4061f25d97",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\libml_camera_plugin.so-f66e5289c36acd68",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "d09cb097d8525d807e9d82ba3651fbd57b02dc4d",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\libml_mediaplayer_plugin.so-f66e5289c36acd68",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "3f702d40c1354f8144e5d5e69d1c8193218e5aeb",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 407276,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "5c18367ea31b7fc24b76d7da35e71558f3327fdc",
+   "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
+   "size": 49726,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
+  },
+  {
+   "compression": 8,
+   "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
+   "pkgpath": "Data/boot.config",
+   "size": 76,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "751a9b49e3186561215c9024d7828c30324130f4",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 35508,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "caf3ad21d707a7740c14eaaa3ff6e96d5c0403da",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 36508,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "224255e10f0c04014c58c324d76f3dd5c30fb8c6",
+   "pkgpath": "Data/level0",
+   "size": 8732,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "27b54071ce4947a2d600914f3a1b1281dd5c6a61",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 149048,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "dbe82c38a3bec16f9e899e5cc37a88e8b9f34886",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 923456,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Data/sharedassets0.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "9498cdbd16893b301df3f951a0c3354eb47adc67",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\Player.elf-3158fe00ad7dace6",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/BostonVR/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "079a38e3306e37316b65641a5ca4a82b8169f1f9",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\libc++_shared.so-c9e98c12a2800bc8",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "b56095b654e507dd6ede6aaef3ff7949e1e4f325",
+   "pkgpath": "manifest.xml",
+   "size": 629,
+   "src": "C:\\Users\\BostonVR\\Desktop\\elma\\n_plus_one\\n_plus_one\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "b0496aaaa8a6158680b47f5b3bf5d472614783f2",
+     "developer_id": "f7aed814-9de2-411f-b006-57a1e583621b"
+    }
+   },
+   "xfrm_hash": "5ff8af8e92883f3777fbdcda985044fde49cc555",
+   "xfrm_path": "C:/Users/BostonVR/Desktop/elma/n_plus_one/n_plus_one/.out/.cache/release_lumin_clang-3.8_aarch64/com.n.plusone-dc2abf0b4463f3f1\\manifest.xml-3158fe00ad7dace6",
+   "xfrm_size": 641
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert"
+  },
+  "taildata": {
+   "devcert": "C:\\Users\\BostonVR\\Desktop\\elma\\privatekey\\development.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

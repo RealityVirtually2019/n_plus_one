@@ -10,8 +10,13 @@ public class ActivitySequenceManager : MonoBehaviour {
 	void Start () {
         activities = new IActivity[]
         {
-
+            new ThumbsUpActivity()
         };
+
+        foreach(IActivity activity in activities)
+        {
+            activity.play();
+        }
 		
 	}
 	
