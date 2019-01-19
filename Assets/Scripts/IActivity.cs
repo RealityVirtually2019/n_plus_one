@@ -4,8 +4,6 @@ using UnityEngine;
 
 public interface IActivity {
 
-    void play();
-
     void taskCompleted();
 
 }
