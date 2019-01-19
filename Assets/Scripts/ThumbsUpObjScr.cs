@@ -6,6 +6,7 @@ using UnityEngine.XR.MagicLeap;
 public class ThumbsUpObjScr : MonoBehaviour {
     public GameObject cube;
     public GameObject sphere;
+    public ThumbsUpActivity activity;
 
     private Vector3 initpos;
 
@@ -29,12 +30,19 @@ public class ThumbsUpObjScr : MonoBehaviour {
         {
             cube.SetActive(true);
             sphere.transform.position = MLHands.Left.Thumb.KeyPoints[0].Position;
+            StartCoroutine(waitAndThenFinish());
         }
         else
         {
             cube.SetActive(false);
             sphere.transform.position = initpos;
         }
+    }
+
+    IEnumerator waitAndThenFinish()
+    {
+        yield return new WaitForSeconds(2);
+        activity.taskCompleted();
     }
 
     private void OnDestroy()
