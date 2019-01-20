@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ActivitySequenceManager : MonoBehaviour {
     public IActivity[] activities;
-    private int currIndex = 0;
+    private int currIndex = -1;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +15,7 @@ public class ActivitySequenceManager : MonoBehaviour {
             new BookActivity(this)
         };
 
-        activities[0].play();
+        //activities[0].play();
 	}
 	
 	// Update is called once per frame
