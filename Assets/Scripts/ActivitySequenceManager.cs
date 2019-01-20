@@ -11,7 +11,8 @@ public class ActivitySequenceManager : MonoBehaviour {
 	void Start () {
         activities = new IActivity[]
         {
-            new ThumbsUpActivity(this)
+            new ThumbsUpActivity(this),
+            new BookActivity(this)
         };
 
         activities[0].play();
