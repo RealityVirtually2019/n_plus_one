@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class ActivitySequenceManager : MonoBehaviour {
     public IActivity[] activities;
+    public GameObject exitButton;
     private int currIndex = -1;
 
 	// Use this for initialization
 	void Start () {
         activities = new IActivity[]
         {
+            new IntroActivity(this),
             new ThumbsUpActivity(this),
             new BookActivity(this)
         };
@@ -25,9 +27,14 @@ public class ActivitySequenceManager : MonoBehaviour {
 
     public void goToNextActivity()
     {
-        if(++currIndex < activities.Length)
+        currIndex++;
+
+        if(currIndex < activities.Length)
         {
             activities[currIndex].play();
+        } else
+        {
+            exitButton.SetActive(true);
         }
     }
 }

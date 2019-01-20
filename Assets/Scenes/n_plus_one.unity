@@ -198,6 +198,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1022722438
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1912603890}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0875
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1 &1022722439 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+  m_PrefabInternal: {fileID: 1022722438}
+--- !u!4 &1022722440 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400006, guid: 41bc03cd532eea643a36614d1f5e10aa, type: 3}
+  m_PrefabInternal: {fileID: 1022722438}
 --- !u!1 &1430922567
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d419093b8ef5745877eb7faeb29e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exitButton: {fileID: 0}
 --- !u!4 &1430922569
 Transform:
   m_ObjectHideFlags: 0
@@ -405,6 +456,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd1cdc7a7d763f41b1f5db40178917f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audio: {fileID: 0}
+  logoSound: {fileID: 0}
+  psstSound: {fileID: 0}
+  firstINeedSound: {fileID: 0}
+  okayListen: {fileID: 0}
+  cube: {fileID: 0}
 --- !u!4 &1460125650
 Transform:
   m_ObjectHideFlags: 0
@@ -525,6 +582,48 @@ MonoBehaviour:
   m_ReverbDecayTime: 0.7
   m_ReverbDecayLFRatio: 1
   m_ReverbDecayHFRatio: 0.6
+--- !u!1 &1912603888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1912603890}
+  - component: {fileID: 1912603889}
+  m_Layer: 0
+  m_Name: ExitButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1912603889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912603888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b25ac576a28d840b9dcc787d8613ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitObj: {fileID: 1022722439}
+--- !u!4 &1912603890
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912603888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1022722440}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138677391
 GameObject:
   m_ObjectHideFlags: 0

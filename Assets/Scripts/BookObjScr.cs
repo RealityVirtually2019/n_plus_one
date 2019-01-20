@@ -5,24 +5,39 @@ using UnityEngine;
 public class BookObjScr : MonoBehaviour {
     public BookActivity activity;
     public bool isImageShowing = false;
+    public AudioSource audio;
+    public AudioClip best;
+    public AudioClip genius;
+    public AudioClip dramatrack;
+    public bool imageAlreadySeen = false;
+    public bool playDramaTrack = true;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Update () {
 		if(isImageShowing)
         {
-            StartCoroutine(waitAndThenFinish());
-            isImageShowing = false;
+            if(!imageAlreadySeen)
+                StartCoroutine(playNarrSound());
+            else if(playDramaTrack)
+            {
+                audio.clip = dramatrack;
+                audio.Play();
+                playDramaTrack = false;
+            }
+            imageAlreadySeen = true;
+
+            if (imageAlreadySeen)
+                activity.taskCompleted();
         }
+
 	}
 
-    IEnumerator waitAndThenFinish()
+    IEnumerator playNarrSound()
     {
-        yield return new WaitForSeconds(2);
-        activity.taskCompleted();
+        audio.clip = best;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = genius;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
     }
 }

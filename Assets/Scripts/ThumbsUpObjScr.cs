@@ -7,12 +7,17 @@ public class ThumbsUpObjScr : MonoBehaviour {
     public GameObject cube;
     public GameObject sphere;
     public ThumbsUpActivity activity;
+    public AudioSource audio;
+    public AudioClip best;
+    public AudioClip ohhow;
+    public AudioClip shareSomething1;
 
     private Vector3 initpos;
 
     // Use this for initialization
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         MLHands.Start();
         MLHandKeyPose[] _gestures = new MLHandKeyPose[]
         {
@@ -28,19 +33,28 @@ public class ThumbsUpObjScr : MonoBehaviour {
     {
         if (isThumbsUpGesture(MLHands.Left) || isThumbsUpGesture(MLHands.Right))
         {
-            cube.SetActive(true);
+            //cube.SetActive(true);
             sphere.transform.position = MLHands.Left.Thumb.KeyPoints[0].Position;
             StartCoroutine(waitAndThenFinish());
         }
         else
         {
-            cube.SetActive(false);
+            //cube.SetActive(false);
             sphere.transform.position = initpos;
         }
     }
 
     IEnumerator waitAndThenFinish()
     {
+        audio.clip = best;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = ohhow;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        //yield return new WaitUntil(() => (audio.isPlaying == false));
+        audio.clip = shareSomething1;
+        audio.Play();
         yield return new WaitForSeconds(2);
         activity.taskCompleted();
     }

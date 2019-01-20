@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4420964310216022}
   - component: {fileID: 114486714843592620}
+  - component: {fileID: 82067043080920874}
   m_Layer: 0
   m_Name: BookObj
   m_TagString: Untagged
@@ -274,6 +275,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82067043080920874
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438508126440102}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114016802639256712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 780297702, guid: 916c888a026741446a9d12e82d3935b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Image: {fileID: 2800000, guid: 2fdc4cf11fcb5194e9079c5b0e13da59, type: 3}
+  Image: {fileID: 2800000, guid: 85ab432feee2a884095a1840d299380a, type: 3}
   IsStationary: 1
   AutoUpdate: 1
   LongerDimensionInSceneUnits: 0
@@ -301,6 +397,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isImageShowing: 0
+  audio: {fileID: 0}
+  best: {fileID: 8300000, guid: 6a7c367f8de861a4ca6d8b9c28bd1e99, type: 3}
+  genius: {fileID: 8300000, guid: 790ee7df19110d24280d51a58d58c009, type: 3}
+  dramatrack: {fileID: 8300000, guid: df8b1b55e8232ff47a367cb26f1ce1ec, type: 3}
+  imageAlreadySeen: 0
+  playDramaTrack: 1
 --- !u!114 &114492596781434494
 MonoBehaviour:
   m_ObjectHideFlags: 1
