@@ -86,7 +86,7 @@ namespace MagicLeap
             _trackingCube.SetActive(true);
             _lookingCube.GetComponent<Renderer>().material.color = Color.red;
             _targetFound = true;
-            bookObjScr.isImageShowing = true;
+            //bookObjScr.isImageShowing = true;
         }
 
         /// <summary>

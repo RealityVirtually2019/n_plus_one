@@ -21,7 +21,9 @@ namespace MagicLeap
     /// <summary>
     /// This provides an example of interacting with the image tracker visualizers using the controller
     /// </summary>
-    public class ImageTrackingSample : MonoBehaviour
+    [RequireComponent(typeof(PrivilegeRequester))]
+    /// 
+    public class MyImageTrackingSample : MonoBehaviour
     {
         #region Public Enum
         public enum ViewMode : int
@@ -55,8 +57,8 @@ namespace MagicLeap
 
             // If not listed here, the PrivilegeRequester assumes the request for
             // the privileges needed, CameraCapture in this case, are in the editor.
-            //_privilegeRequester = GetComponent<PrivilegeRequester>();
-            _privilegeRequester = GameObject.FindGameObjectWithTag("ActivitySequenceManager").GetComponent<PrivilegeRequester>();
+            _privilegeRequester = GetComponent<PrivilegeRequester>();
+            //_privilegeRequester = GameObject.FindGameObjectWithTag("ActivitySequenceManager").GetComponent<PrivilegeRequester>();
 
             // Before enabling the MLImageTrackerBehavior GameObjects, the scene must wait until the privilege has been granted.
             _privilegeRequester.OnPrivilegesDone += HandlePrivilegesDone;
