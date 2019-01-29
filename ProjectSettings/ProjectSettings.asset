@@ -672,6 +672,7 @@ PlayerSettings:
   - GesturesConfig
   - GesturesSubscribe
   - CameraCapture
+  - ControllerPose
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

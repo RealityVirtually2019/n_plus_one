@@ -48,14 +48,14 @@ public class ThumbsUpObjScr : MonoBehaviour {
     {
         audio.clip = best;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         audio.clip = ohhow;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         //yield return new WaitUntil(() => (audio.isPlaying == false));
         audio.clip = shareSomething1;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
 
         activity.taskCompleted();
     }

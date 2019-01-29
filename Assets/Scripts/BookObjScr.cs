@@ -19,25 +19,24 @@ public class BookObjScr : MonoBehaviour {
                 StartCoroutine(playNarrSound());
             else if(playDramaTrack)
             {
+                playDramaTrack = false;
                 audio.clip = dramatrack;
                 audio.Play();
-                playDramaTrack = false;
             }
-            imageAlreadySeen = true;
-
-            if (imageAlreadySeen)
-                activity.taskCompleted();
+        } else if(imageAlreadySeen)
+        {
+            activity.taskCompleted();
         }
 
-	}
+    }
 
     IEnumerator playNarrSound()
     {
         audio.clip = best;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         audio.clip = genius;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
     }
 }

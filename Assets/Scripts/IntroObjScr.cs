@@ -36,7 +36,7 @@ public class IntroObjScr : MonoBehaviour {
         //audio.PlayOneShot(logoSound);
         audio.clip = logoSound;
         audio.Play();
-        StartCoroutine(waitAndPlayPsst(4));
+        StartCoroutine(waitAndPlayPsst(25));
     }
 
     IEnumerator waitAndPlayPsst(int sec)
@@ -46,14 +46,14 @@ public class IntroObjScr : MonoBehaviour {
         audio.clip = psstSound;
         audio.Play();
         //waitAndThenFinish((int)psstSound.length);
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         audio.clip = okayListen;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         //yield return new WaitUntil(() => (audio.isPlaying == false));
         audio.clip = firstINeedSound;
         audio.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        yield return new WaitForSeconds(audio.clip.length + 1);
         activity.taskCompleted();
     }
 

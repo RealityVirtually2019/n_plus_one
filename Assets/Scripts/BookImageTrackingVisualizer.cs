@@ -83,10 +83,10 @@ namespace MagicLeap
         /// <param name="isReliable"> Contains if image found is reliable </param>
         private void OnTargetFound(bool isReliable)
         {
-            _trackingCube.SetActive(true);
-            _lookingCube.GetComponent<Renderer>().material.color = Color.red;
+            //_trackingCube.SetActive(true);
+            //_lookingCube.GetComponent<Renderer>().material.color = Color.red;
             _targetFound = true;
-            //bookObjScr.isImageShowing = true;
+            bookObjScr.isImageShowing = true;
         }
 
         /// <summary>
@@ -94,9 +94,10 @@ namespace MagicLeap
         /// </summary>
         private void OnTargetLost()
         {
-            _trackingCube.SetActive(false);
-            _lookingCube.GetComponent<Renderer>().material.color = Color.blue;
+            //_trackingCube.SetActive(false);
+            //_lookingCube.GetComponent<Renderer>().material.color = Color.blue;
             _targetFound = false;
+            bookObjScr.isImageShowing = false;
         }
         #endregion
     }
